@@ -2,7 +2,7 @@
 main()
 {
 	
-	int i,n,sum;
+	int i,n,sum,a,b,ans;
 	
 	printf("Enter the starting point : ");
 	scanf("%d",&i);
@@ -18,5 +18,20 @@ main()
 		
 	}
 	printf(" = %d",sum);
+	
+	printf("\n\nEnter the starting point : ");
+	scanf("%d",&a);
+	printf("Enter the ending point : ");
+	scanf("%d",&b);
+	
+	while(a >= b){
+		
+		printf("%d\t",a);
+		ans-=a;
+		a--;
+		
+		
+	}
+	printf(" = %d",ans);
 	
 }
